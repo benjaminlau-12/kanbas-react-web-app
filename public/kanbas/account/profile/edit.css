@@ -1,0 +1,30 @@
+.textboxes-headings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-heading-spacing {
+    padding-left: 7%;
+}
+
+.url-heading-spacing {
+    margin-right: 10px;
+}
+
+.wd-edit {
+    margin-top: 1px;
+    margin-left: 60px;
+}
+
+.wd-textbox-indent {
+    margin-left: 10px;
+}
+
+.wd-settings-link {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-bio-text-area {
+    text-align: left;
+}
