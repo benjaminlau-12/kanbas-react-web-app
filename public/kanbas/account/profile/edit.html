@@ -18,19 +18,19 @@
                 <li>
                     <img src="../../../Northeastern-logo.png" class="wd-neu-logo">
                 </li>
-                <li class="row">
-                    <i class="fa fa-user account-icon"
-                        onclick="window.location.href='profile.html'"></i>
-                    <a href="profile.html">Account</a>
+                <li class="row wd-account-selected-bg">
+                    <i class="fa fa-user account-icon" onclick="window.location.href='profile.html'"></i>
+                    <a class="wd-account-selected-text" href="profile.html">Account</a>
                 </li>
                 <li class="row">
                     <i class="fa fa-graduation-cap menu-icon"
                         onclick="window.location.href='../../dashboard/dashboard.html'"></i>
                     <a href="#">Dashboard</a>
                 </li>
-                <li class="row wd-course-selected-bg">
-                    <i class="fa fa-book menu-icon" onclick="window.location.href='../../courses/coursesSecondColumn.html'"></i>
-                    <a class="wd-course-selected-text" href="../../courses/coursesSecondColumn.html">Courses</a>
+                <li class="row">
+                    <i class="fa fa-book menu-icon"
+                        onclick="window.location.href='../../courses/coursesSecondColumn.html'"></i>
+                    <a href="../../courses/coursesSecondColumn.html">Courses</a>
                 </li>
                 <li class="row">
                     <i class="fa fa-calendar menu-icon"></i>
@@ -64,7 +64,7 @@
                 <li>
                     <i class="fa fa-bars wd-menu"></i>
                     <span class="wd-course-name">Benjamin Lau's Profile</span>
-                    <p>__________________________________________________________________________</p>
+                    <p>_______________________________________________________________________________________</p>
                 </li>
                 <li>
                     <a href="#">Notifications</a>
@@ -95,44 +95,63 @@
                 </li>
             </ul>
         </div>
-        <div class="wd-edit">
+        <div class="wd-edit wd-main-content">
             <div>
                 <i class="fa fa-user wd-main-account-icon"></i>
+                <button class="float-end wd-edit-button btn wd-btn-custom-light-grey" type="button"
+                    onclick="window.location.href='profile.html'">
+                    <i class="fa fa-pencil"></i>
+                    Cancel Editing
+                </button>
             </div>
             <h2>Benjamin Lau</h2>
-                <form id="text-fields">
-                    <label for="name">Name:</label><br>
-                    <input class="form-control wd-textbox-indent" type="text" id="name"><br>
-                    <label for="pronouns">Pronouns:</label><br>
-                    <select class="form-select wd-textbox-indent" id="pronouns">
-                        <option selected value="MALE">he/him/his</option>
-                        <option value="FEMALE">she/her/hers</option>
-                        <option value="OTHER">they/them</option>
-                    </select><br>
-                    <label for="title">Title:</label> <br>
-                    <input class="form-control wd-textbox-indent" type="text">
-                </form><br>
-                <h3>Contact</h3>
-                <p>No registered services you can add some <br> on the <a class="wd-settings-link" href="#">settings</a> page</p>
-                <h3>Biography</h3>
-                <form id="textarea">
-                    <textarea class="wd-bio-text-area form-control" cols="50" rows="3">
+            <form id="text-fields">
+                <label for="name">Name:</label><br>
+                <input class="form-control wd-textbox-indent" type="text" id="name"><br>
+                <label for="pronouns">Pronouns:</label><br>
+                <select class="form-select wd-textbox-indent" id="pronouns">
+                    <option selected value="MALE">he/him/his</option>
+                    <option value="FEMALE">she/her/hers</option>
+                    <option value="OTHER">they/them</option>
+                </select><br>
+                <label for="title">Title:</label> <br>
+                <input class="form-control wd-textbox-indent" type="text">
+            </form><br>
+            <h3>Contact</h3>
+            <p>No registered services you can add some <br> on the <a class="wd-settings-link" href="#">settings</a>
+                page</p>
+            <h3>Biography</h3>
+            <form id="textarea">
+                <textarea class="wd-bio-text-area form-control" cols="50" rows="3">
                         Benjamin Lau, Software Engineer
                     </textarea>
-                </form><br>
-                <h3>Links</h3>
-                <div class="textboxes-headings">
-                    <h4 class="title-heading-spacing">Title</h4>
-                    <h4 class="url-heading-spacing">URL</h4>
+            </form><br>
+            <h3>Links</h3>
+            <div class="row">
+                <div class="col">
+                    <h5 class="title-heading-spacing">Title</h5>
+                    <input type="text" value="Youtube" id="title-textbox">
                 </div>
-                <input type="text" id="title-textbox">
-                <input type="text" id="url-textbox">
-                <a href="#">Remove</a><br>
-                <button type="button">Add another link</button><br>
-                <button type="button">Cancel</button>
-                <button type="button" onclick="window.location.href='profile.html'">Save Profile</button><br>
-                <button type="button">Edit Profile</button>
-                <button type="button" onclick="window.location.href='profile.html'">Cancel Editing</button>
+                <div class="col">
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="col">
+                    <h5 class="url-heading-spacing">URL</h5>
+                    <input type="text" value="youtube.com" id="url-textbox">
+                </div>
+            </div>
+            <div>
+                <button class="btn wd-btn-custom-light-grey" type="button">Add another link</button><br>
+            </div>
+            <div class="col wd-button-container">
+                <button class="btn wd-btn-custom-light-grey" type="button"
+                    onclick="window.location.href='profile.html'">
+                    Cancel
+                </button>
+                <button class="btn btn-danger" type="button" onclick="window.location.href='profile.html'">
+                    Save Profile
+                </button><br>
+            </div>
         </div>
     </div>
     </div>

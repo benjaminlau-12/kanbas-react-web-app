@@ -4,11 +4,12 @@
 }
 
 .title-heading-spacing {
-    padding-left: 7%;
+    margin-left: 50px;
 }
 
 .url-heading-spacing {
-    margin-right: 10px;
+    margin-right:200px;
+    padding-left: 60px;
 }
 
 .wd-edit {
@@ -27,4 +28,20 @@
 
 .wd-bio-text-area {
     text-align: left;
+}
+
+.wd-cancel-edit-button {
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.wd-button-container {
+    margin-left: 240px;
+}
+
+.wd-btn-custom-light-grey {
+    background-color: #f5f5f5; /* Use your preferred shade of light grey here */
+    color: #2d3b45; /* You can adjust the text color to ensure readability */
+    border-color: #c7cdd1; /* You can adjust the border color to match */
 }
