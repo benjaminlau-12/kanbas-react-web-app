@@ -82,6 +82,7 @@ body  * {
 
 .wd-menu {
     color: red;
+    font-size: larger;
 }
 
 .wd-main-account-icon  {
@@ -116,5 +117,10 @@ body  * {
     background-color: #f5f5f5;
     color: #2d3b45;
     border-color: #c7cdd1;
+}
+
+.wd-links {
+    color: red;
+    text-decoration: none;
 }
 
