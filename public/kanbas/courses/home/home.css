@@ -39,8 +39,6 @@ body * {
 .wd-flex-row-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; 
-    align-items: flex-start;  */
 }
 
 .wd-navigation {
@@ -74,8 +72,12 @@ body * {
     margin: 10px;
 }
 
+.wd-navigation li a.wd-course-name {
+    margin: 0px;
+    padding: 0px;
+}
+
 .wd-navigation li {
-    /* margin: 5px; */
     padding: 5px;
 }
 
@@ -96,4 +98,125 @@ body * {
 
 .wd-menu {
     color: red;
+}
+
+.wd-course-navigation {
+    width: 450px;
+}
+
+.wd-third-col {
+    margin-top: 90px;
+    width: 700px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.wd-fourth-col {
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.wd-light-grey-button{
+    background-color: #f5f5f5;
+    color: #2d3b45;
+    border-color: #c7cdd1;
+}
+
+.wd-fourth-col .btn{
+    background-color: #f5f5f5;
+    color: #2d3b45;
+    border-color: #c7cdd1;
+}
+
+.wd-btn-container {
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+.ms-left {
+    padding-left: 30px;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+    color: red;
+}
+
+.list-group-item {
+    color: #4c5860;
+}
+
+.fa-check-square {
+    color: limegreen;
+}
+
+.float-end i {
+    padding: 5px;
+}
+
+.wd-ellipsis-color {
+    color: #4c5860;
+}
+
+.wd-no-wrap {
+    white-space: nowrap;
+}
+
+.wd-top-bar {
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-top-bar-elements {
+    justify-content: space-between;
+}
+
+.wd-top-bar-icons-and-titles {
+    color: #ffff;
+}
+
+.wd-top-bar-icons {
+    background-color: black;
+}
+
+.wd-top-bar-titles {
+    margin-bottom: 0px;
+}
+
+.wd-kanbas-menu-container {
+    margin-top: 20px;
+}
+
+.wd-kanbas-menu-container li{
+    list-style-type: none
+}
+
+/* Custom breakpoint at 1300px */
+@media (min-width: 1300px) {
+    .d-show-fourth-col {
+        display: block !important;
+    }
+}
+
+/* Custom breakpoint at 900px */
+@media (min-width: 900px) {
+    .d-show-navigation {
+        display: block !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .d-show-top-bar {
+        display: block !important;
+    }
+
+
+    .wd-third-col {
+        margin-top: 100px;
+        position: absolute;
+    }
 }

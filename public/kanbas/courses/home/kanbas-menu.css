@@ -1,0 +1,28 @@
+.wd-flex-col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-flex-col-container a {
+    text-decoration: none;
+    color: red;
+}
+
+.wd-exit-container {
+    justify-content: end;
+    margin: 10px;
+}
+
+.wd-exit-btn {
+    width: 40px;
+    background-color: white;
+}
+
+.wd-menu-links {
+    margin-right: 200px;
+}
+
+.row a {
+    width: 160px;
+    padding: none;
+}
