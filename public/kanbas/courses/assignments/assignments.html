@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Benjamin's Kanbas</title>
+    <link href="../../../../vendors/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../../vendors/bootstrap-5.1.3-dist/js/bootstrap.min.js" rel="stylesheet" />
+    <link href="../../../../vendors/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assignments.css">
+</head>
+
+<body>
+    <div class="wd-flex-row-container">
+        <div class="sidebar">
+            <ul class="wd-sidebar">
+                <li>
+                    <img src="../../../Northeastern-logo.png" class="wd-neu-logo">
+                </li>
+                <li class="row">
+                    <i class="fa fa-user icon-sidebar account-icon fa"
+                        onclick="window.location.href='../account/profile/profile.html'"></i>
+                    <a href="../../account/profile/profile.html">Account</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-graduation-cap menu-icon"
+                        onclick="window.location.href='../dashboard/dashboard.html'"></i>
+                    <a href="../../dashboard/dashboard.html">Dashboard</a>
+                </li>
+                <li class="row wd-course-selected-bg">
+                    <i class="fa fa-book menu-icon" onclick="window.location.href='../coursesSecondColumn.html'"></i>
+                    <a class="wd-course-selected-text" href="../coursesSecondColumn.html">Courses</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-calendar menu-icon"></i>
+                    <a href="#">Calendar</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-inbox menu-icon"></i>
+                    <a href="#">Inbox</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-history menu-icon"></i>
+                    <a href="#">History</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-desktop menu-icon"></i>
+                    <a href="#">Studio</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-arrow-right menu-icon"></i>
+                    <a href="#">Commons</a>
+                </li>
+                <li class="row">
+                    <i class="fa fa-question menu-icon"></i>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="wd-second-col">
+            <div class="wd-top-elements">
+                <li>
+                <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb wd-no-wrap">
+                        <li class="breadcrumb-item"><a class="wd-course-name" href="#"> <i
+                                    class="fa fa-bars wd-menu"></i> CS4550 Web
+                                Development</a></li>
+                        <li class="breadcrumb-item active wd-no-wrap" aria-current="page">Assignments</li>
+                    </ol>
+                    <hr class="wd-main-hr">
+                </nav>
+            </li>
+            </div>
+            
+            <div class="wd-course-navigation">
+                <ul class="wd-navigation">
+                    <li>
+                        <span class="wd-course-italic">
+                            CS4550_Fall_Semester
+                        </span>
+                    </li>
+                    <li>
+                        <a href="../home/home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Modules</a>
+                    </li>
+                    <li>
+                        <a href="#">Piazza</a>
+                    </li>
+                    <li>
+                        <a href="#">Zoom Meetings</a>
+                    </li>
+                    <li>
+                        <a class="wd-selected-navigation" href="assignments/index.html">Assignments</a>
+                    </li>
+                    <li>
+                        <a href="#">Quizzes</a>
+                    </li>
+                    <li>
+                        <a href="grades/grades.html">Grades</a>
+                    </li>
+                    <li>
+                        <a href="#">People</a>
+                    </li>
+                    <li>
+                        <a href="#">Panopto Video</a>
+                    </li>
+                    <li>
+                        <a href="#">Discussions</a>
+                    </li>
+                    <li>
+                        <a href="#">Announcements</a>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#">Files</a>
+                    </li>
+                    <li>
+                        <a href="#">Rubrics</a>
+                    </li>
+                    <li>
+                        <a href="#">Outcomes</a>
+                    </li>
+                    <li>
+                        <a href="#">Collaborations</a>
+                    </li>
+                    <li>
+                        <a href="#">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="wd-main-content">
+            <div class="wd-search">
+                <input class="form-control" type="text" placeholder="Search for Assignment">
+
+            </div>
+            <div class="wd-btn-container float-end">
+                <button class="btn wd-light-grey-button">+ Group</button>
+                <button class="btn btn-danger">+ Assignment</button>
+                <button class="btn  wd-light-grey-button">
+                    <i class="fa fa-ellipsis-v"></i>
+                </button>
+            </div>
+            <hr class="wd-secondary-hr">
+            <div class="list-group">
+                <li class="list-group-item list-group-item-secondary list-group-item-action d-flex">
+                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                    <span class="wd-section-titles">Assignments</span>
+                    <div class="d-flex float-end">
+                        <span class="wd-title-w-buttons">40% of Total</span>
+                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-ellipsis-v wd-last-btn"></i>
+                    </div>
+                </li>
+                <ul class="list-group-item wd-sub-list-group">
+                    <li class="list-group">
+                        <div class="d-flex list-group-item wd-only-bot-border">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5> <a href="edit/edit.html">A1 Setup</a></h5>
+                                <span>Due October 3rd at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A2 HTML</a></h5>
+                                <span>Due October 10th at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <a href="edit/edit.html"></a>
+                                <h5><a href="edit/edit.html">A3 CSS</a></h5>
+                                <span>Due October 17th at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A4 Bootstrap</a></h5>
+                                <span>Due October 24th at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A5 Javascript</a></h5>
+                                <span>Due October 31st at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A6 React</a></h5>
+                                <span>Due September 7th at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-only-bot-border wd-list-padding-top">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A7 Project I</a></h5>
+                                <span>Due September 14th at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex list-group-item wd-list-padding-top wd-no-border">
+                            <div class="wd-list-group-starting-icons d-flex">
+                                <div>
+                                    <i class="fa-solid fa-grip-vertical wd-double-ellipsis"></i>
+                                </div>
+                                <div>
+                                    <i class="fa fa-sticky-note wd-color-lime-green"></i>
+                                </div>
+                            </div>
+                            <div class="wd-ms-left">
+                                <h5><a href="edit/edit.html">A8 Project II</a></h5>
+                                <span>Due September 21st at 11:59 pm</span>
+                            </div>
+                            <div>
+                                <div class="float-end">
+                                    <i class="fa fa-check-square"></i>
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>

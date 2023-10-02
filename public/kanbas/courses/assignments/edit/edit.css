@@ -1,0 +1,61 @@
+.wd-ellipsis-btn {
+   margin-left: 15px;
+}
+
+.wd-margin-top-50px {
+    margin-top: 50px;
+}
+
+.wd-margin-left-10px {
+    margin-left: 10px;
+}
+
+.wd-margin-left-140px {
+    margin-left: 140px;
+}
+
+.wd-button-size {
+    width: 640px;
+}
+
+.wd-btn-label {
+    white-space: nowrap;
+}
+
+.wd-borders {
+    border: 1px black solid;
+}
+
+.wd-container {
+    width: 500px;
+    height: 300px;
+}
+
+.wd-small-btn {
+    width: 200px;
+    height: 50px;
+}
+
+.wd-margins {
+    margin: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.wd-margin-bot {
+    margin-bottom: 10px;
+}
+
+.wd-bold {
+    font-style: bold;
+}
+
+.wd-textbox {
+    width: 500px;
+}
+
+.wd-add-btn {
+    width: 720px;
+    height: 40px;
+    margin-left: 10px;
+}
