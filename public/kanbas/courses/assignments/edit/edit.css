@@ -59,3 +59,21 @@
     height: 40px;
     margin-left: 10px;
 }
+
+.wd-light-grey-button {
+    background-color: #f5f5f5;
+    color: #2d3b45;
+    border-color: #c7cdd1;
+}
+
+.wd-no-text-decoration {
+    text-decoration: none;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-black {
+    color: black;
+}
