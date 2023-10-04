@@ -77,3 +77,8 @@
 .wd-black {
     color: black;
 }
+
+.wd-btn-container {
+    margin-bottom: 10px;
+    margin-left: 620px;
+}
