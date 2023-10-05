@@ -39,9 +39,3 @@
 .wd-button-container {
     margin-left: 240px;
 }
-
-.wd-btn-custom-light-grey {
-    background-color: #f5f5f5; /* Use your preferred shade of light grey here */
-    color: #2d3b45; /* You can adjust the text color to ensure readability */
-    border-color: #c7cdd1; /* You can adjust the border color to match */
-}
