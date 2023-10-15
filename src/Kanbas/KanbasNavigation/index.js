@@ -18,14 +18,13 @@ function KanbasNavigation() {
                 <li>
                     <img src="../../../Northeastern-logo.png" className="wd-neu-logo"></img>
                 </li>
-                {/* <AiOutlineDashboard/> */}
                 {links.map((link, index) => (
                     <li className={`row ${pathname.includes(link) && "wd-kanbas-selected-bg"}`}>
                         <div onClick={() => handleClick(link)}
                             className={`row ${link === "Account" ?
                                 "account-icon" : "menu-icon"}`}>
                             {icons[index] && React.createElement(icons[index],
-                                {size: 25 })}
+                                {size: 23 })}
                             <Link
                                 key={index}
                                 to={`${link}`}
