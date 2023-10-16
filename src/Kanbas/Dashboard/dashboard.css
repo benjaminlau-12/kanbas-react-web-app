@@ -1,0 +1,115 @@
+
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.wd-sidebar {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+.wd-neu-logo {
+    width: 65px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.container-fluid {
+    width: 1300px;
+    margin: 15px;
+}
+
+.wd-sub-title {
+    margin-left: 15px;
+}
+
+.wd-kanbas-title-color {
+    color: #2D3B45;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+}
+
+.row .col {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.wd-card-color-1 {
+    background-color: #FF5733;
+    height: 150px;
+}
+
+.wd-card-color-2 {
+    background-color: navy;
+    height: 150px;
+}
+
+.wd-card-color-3 {
+    background-color: black;
+    height: 150px;
+}
+
+.wd-card-color-4 {
+    background-color: green;
+    height: 150px;
+}
+
+.wd-card-color-5 {
+    background-color: brown;
+    height: 150px;
+}
+
+.wd-card-color-6 {
+    background-color: purple;
+    height: 150px;
+}
+
+.wd-card-color-7 {
+    background-color: orange;
+    height: 150px;
+}
+
+.wd-course-name1 {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+.wd-course-name2 {
+    color: navy;
+    text-decoration: none;
+}
+
+.wd-course-name3 {
+    color: black;
+    text-decoration: none;
+}
+
+.wd-course-name4 {
+    color: green;
+    text-decoration: none;
+}
+
+.wd-course-name5 {
+    color: brown;
+    text-decoration: none;
+}
+
+.wd-course-name6 {
+    color: purple;
+    text-decoration: none;
+}
+
+.wd-course-name7 {
+    color: orange;
+    text-decoration: none;
+}

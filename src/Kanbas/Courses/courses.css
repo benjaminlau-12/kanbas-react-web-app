@@ -1,0 +1,73 @@
+
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.wd-navigation {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+
+
+
+
+.wd-navigation li a {
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.wd-navigation li a.wd-course-name {
+    padding-left: 13px;
+}
+
+.wd-navigation li {
+    padding: 5px;
+}
+
+.wd-navigation li a.wd-selected-navigation {
+    color: black;
+    border-left: 2px black solid;
+}
+
+.wd-course-name {
+    color: red;
+}
+
+.wd-neu-logo {
+    width: 65px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+}
+
+.wd-menu {
+    color: red;
+}
+
+.wd-course-navigation {
+    width: 450px;
+}
+
+.wd-bars {
+    font-size: 25px;
+    margin-left: 6px;
+    color: red;
+}
+
+.wd-hr {
+    margin-top: -10px;
+}
+
+
+
+
+
