@@ -14,16 +14,10 @@ body * {
     padding-right: 10px;
 }
 
-
-.wd-neu-logo {
-    width: 65px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
 .container-fluid {
     width: 1300px;
     margin: 15px;
+    margin-left: 20px !important;
 }
 
 .wd-sub-title {

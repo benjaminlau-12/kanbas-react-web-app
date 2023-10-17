@@ -1,32 +1,5 @@
 [
     {
-        "_id": "RS101",
-        "section": "01",
-        "term": "FA23",
-        "name": "Rocket Propulsion",
-        "number": "RS4550",
-        "startDate": "2023-01-10",
-        "endDate": "2023-05-15"
-    },
-    {
-        "_id": "RS102",
-        "section": "02",
-        "term": "FA23",
-        "name": "Aerodynamics",
-        "number": "RS4560",
-        "startDate": "2023-01-10",
-        "endDate": "2023-05-15"
-    },
-    {
-        "_id": "RS103",
-        "section": "04",
-        "term": "FA23",
-        "name": "Spacecraft Design",
-        "number": "RS4570",
-        "startDate": "2023-01-10",
-        "endDate": "2023-05-15"
-    },
-    {
         "_id": "CS4550",
         "section": "01",
         "term": "FA23",
@@ -39,17 +12,17 @@
         "_id": "CS4400",
         "section": "03",
         "term": "FA23",
-        "name": "Programmin Languages",
+        "name": "Programming Languages",
         "number": "CS4400",
         "startDate": "2023-01-10",
         "endDate": "2023-05-15"
     },
     {
-        "_id": "PORT101",
+        "_id": "POR101",
         "section": "02",
         "term": "FA23",
         "name": "Intro to Portuguese",
-        "number": "PORT101",
+        "number": "POR101",
         "startDate": "2023-01-10",
         "endDate": "2023-05-15"
     }

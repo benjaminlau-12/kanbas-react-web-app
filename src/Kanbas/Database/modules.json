@@ -1,0 +1,56 @@
+[
+    {
+      "_id": "M101",
+      "name": "Introduction to Web Development",
+      "description": "Basic principles of Web Development",
+      "course": "CS4550"
+    },
+    {
+      "_id": "M102",
+      "name": "Intro to HTML",
+      "description": "Understanding HTML and its basics",
+      "course": "CS4550"
+    },
+    {
+      "_id": "M103",
+      "name": "Intro to CSS",
+      "description": "Principles of CSS and practical use",
+      "course": "CS4550"
+    },
+    {
+      "_id": "M201",
+      "name": "Fundamentals of Racket",
+      "description": "Basic Rackett concepts and principles.",
+      "course": "CS4400"
+    },
+    {
+      "_id": "M202",
+      "name": "Learning about Autonoma",
+      "description": "Understanding autonoma behavior and rules",
+      "course": "CS4400"
+    },
+    {
+      "_id": "M203",
+      "name": "Building our own language",
+      "description": "Study of what are the fundamentals of a language",
+      "course": "CS4400"
+    },
+    {
+      "_id": "M301",
+      "name": "Learning Basic Words",
+      "description": "Understand the use of common words used on a daily basis",
+      "course": "POR101"
+    },
+    {
+      "_id": "M302",
+      "name": "Conjugation of Verbs",
+      "description": "Learn how to conjugate verbs to be and eat ",
+      "course": "POR101"
+    },
+    {
+      "_id": "M303",
+      "name": "Food and Culture",
+      "description": "Overview of Portugal's food and culture",
+      "course": "POR101"
+    }
+  ]
