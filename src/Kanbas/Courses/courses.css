@@ -51,6 +51,8 @@ body * {
 
 .wd-hr {
     margin-top: -15px;
+    width: 330%;
+    margin-left: 5px;
 }
 
 .wd-nav {
@@ -63,6 +65,11 @@ body * {
     margin-right: 30px;
     margin-left:180px;
     margin-top: -550px;
+}
+
+.wd-fourth-col {
+    margin-left: 900px;
+    margin-top: -400px;
 }
 
 

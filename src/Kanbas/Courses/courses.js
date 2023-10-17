@@ -2,8 +2,9 @@ import db from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import CourseNavigation from "./CourseNavigation/course-nav";
 import { FaBars } from "react-icons/fa6";
-import Modules from "./Modules/index";
 import "./courses.css"
+import MainContent from "./MainContent/main-content";
+import ButtonsAndStatus from "./ButtonsAndStatus/buttons-and-status";
 
 
 function Courses() {
@@ -32,26 +33,8 @@ function Courses() {
                     <CourseNavigation />
                 </ul>
             </div>
-
-            <div className="wd-third-col">
-                <Routes>
-                    <Route path="/" element={<Navigate to="Home" />} />
-                    
-                    <Route path="Modules" element={<Modules />} />
-                    <Route path="Home" element={<Modules />} />
-                    <Route path="Assignments" element={<h1><br />Assignments</h1>} />
-                    <Route
-                        path="Assignments/:assignmentId"
-                        element={<h1>Assignment Editor</h1>}
-                    />
-                    <Route path="Grades" element={<h1>Grades</h1>} />
-                </Routes>
-            </div>
-            <div>
-            <Routes>
-                <Route path="Home" element={<h1><br />Home</h1>} />
-            </Routes>
-            </div>
+            <MainContent/>
+            <ButtonsAndStatus/>
 
 
 
