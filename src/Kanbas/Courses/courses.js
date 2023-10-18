@@ -15,7 +15,7 @@ function Courses() {
         <div>
             <div className="wd-course-navigation">
                 <ul className="wd-navigation">
-                    <li class="wd-no-wrap">
+                    <li class="">
                         <nav className="wd-nav">
                             <ol class="breadcrumb wd-no-wrap">
                                 <li class="breadcrumb-item">
@@ -24,7 +24,7 @@ function Courses() {
                                         {course.number + " " + course.section + " " + course.term}
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active wd-no-wrap" aria-current="page">{pathname.substring(23)}</li>
+                                <li class="breadcrumb-item active" aria-current="page">{pathname.substring(23)}</li>
                             </ol>
                         </nav>
 

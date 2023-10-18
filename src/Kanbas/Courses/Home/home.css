@@ -1,17 +1,36 @@
 .wd-fourth-col {
     margin-left: 900px;
     margin-top: -455px;
+    margin-right: 10000px;
 }
 
-.wd-fourth-col .wd-btn-container .btn{
+.wd-fourth-col .wd-btn-container .btn {
     background-color: #f5f5f5;
     color: #2d3b45;
     border-color: #c7cdd1;
+    width: 230px;
+    text-align: left;
+    transition: background-color .2s ease-in-out;
 }
 
-.wd-fa-glasses {
+.wd-icon-margin {
     margin-right: 6px;
 }
 
+.wd-stdnt-btn {
+    margin-left: 70px;
+    width: 150px !important;
+    margin-bottom: 50px;
+}
 
+.wd-btn-container {
+    margin-left: 10px;
+}
 
+.wd-hr-margin {
+    margin-top: 5px;
+}
+
+.wd-color-red {
+    color: red;
+}

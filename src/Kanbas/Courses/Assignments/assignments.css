@@ -1,0 +1,170 @@
+.wd-light-grey-button {
+    background-color: #f5f5f5;
+    color: #2d3b45;
+    border-color: #c7cdd1;
+}
+
+.wd-btn-container {
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.ms-left {
+    padding-left: 30px;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+    color: red;
+}
+
+.list-group-item {
+    color: #4c5860;
+}
+
+.fa-check-square {
+    color: limegreen;
+}
+
+.float-end i {
+    padding: 5px;
+}
+
+.wd-no-wrap {
+    white-space: nowrap;
+}
+
+.wd-main-content {
+    margin-top: 20px;
+    width: 750px;
+}
+
+.wd-top-elements {
+    height: 100px;
+    width: 1000px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.wd-top-elements li {
+    list-style-type: none;
+}
+
+.wd-top-elements li a {
+    text-decoration: none;
+}
+
+.wd-secondary-hr {
+    width: 110%;
+}
+
+.wd-main-hr {
+    width: 114%;
+}
+
+.wd-course-italic {
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+.wd-search {
+    width: 230px;
+}
+
+.wd-main-title {
+    color: #3d454c;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: -450px;
+    padding-top: 3px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-title-w-buttons {
+    padding-right: 8px;
+    padding-top: 1px;
+}
+
+.wd-last-btn {
+    margin-left: 5px;
+}
+
+.wd-double-ellipsis {
+    margin-top: 3px;
+}
+
+.wd-sub-list-group {
+    border-left: 4px green solid !important;
+}
+
+.list-group .d-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wd-list-group-starting-icons {
+    width: 40px;
+    justify-content: space-between;
+}
+
+.wd-color-lime-green {
+    color: limegreen;
+}
+
+.wd-ms-left {
+    margin-left: -40px;
+}
+
+.wd-ms-left h5 a{
+    text-decoration: none;
+    color: #2d3b45;
+    font-style: bold;
+}
+
+.wd-ms-left span {
+    color: #2d3b45;
+    font-style: italic;
+}
+
+.wd-only-bot-border {
+    border-top: none !important;
+    /* border-left: none !important; */
+    /* border-right: none !important; */
+    border-bottom: 1px black solid;
+}
+
+.wd-only-bot-border2 {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px black solid;
+}
+
+.wd-no-border {
+    border: none !important;
+}
+
+.wd-list-padding-top {
+    padding-top: 8px;
+}
+
+.wd-second-col {
+    width: 420px;
+    margin-left: -20px;
+}
+
+.wd-search-size {
+    width: 100% !important;
+}
+
+.wd-list-group-item-margin {
+    margin-top: 40px;
+}
+
+.wd-list-group-item-width {
+    width: 160% !important;
+}   

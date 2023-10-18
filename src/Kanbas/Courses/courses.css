@@ -57,7 +57,7 @@ body * {
 
 .wd-nav {
     --bs-breadcrumb-divider:">";
-    /* aria-label: "breadcrumb"; */
+    --aria-label: "breadcrumb";
 }
 
 .wd-third-col {
@@ -72,7 +72,10 @@ body * {
     margin-top: -400px;
 }
 
-
+.wd-no-wrap {
+    white-space: nowrap;
+    width: 700px;
+}
 
 
 

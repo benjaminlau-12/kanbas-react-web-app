@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "HTML + ENV", "course": "CS4550" },
+    { "_id": "A102", "title": "CSS + Bootstrap", "course": "CS4550" },
+    { "_id": "A103", "title": "React + Javascript", "course": "CS4550" },
+    { "_id": "A201", "title": "Racket #1", "course": "CS4400" },
+    { "_id": "A202", "title": "Racket #2", "course": "CS4400" },
+    { "_id": "A203", "title": "Racket #3", "course": "CS4400" },
+    { "_id": "A301", "title": "Conjugate Verbs", "course": "POR101" },
+    { "_id": "A302", "title": "Powerpoint Presentation", "course": "POR101" },
+    { "_id": "A303", "title": "Dialogue with um amigo", "course": "POR101" }
+  ]
