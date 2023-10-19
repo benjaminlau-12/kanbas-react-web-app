@@ -87,23 +87,23 @@ function AssignmentEditor() {
                         <span class="wd-margins wd-bold">Online Entry Options</span>
                         <div class="d-flex row checkboxes wd-margins">
                             <div>
-                                <input type="checkbox"/>
-                                <label class="wd-margin-left-10px">Text Entry</label>
+                                <input className="wd-margin-left-10px" type="checkbox"/>
+                                <label className="wd-margin-left-10px">Text Entry</label>
                             </div>
                             <div>
-                                <input type="checkbox"/>
+                                <input className="wd-margin-left-10px" type="checkbox"/>
                                 <label class="wd-margin-left-10px">Website Url</label>
                             </div>
                             <div>
-                                <input type="checkbox"/>
+                                <input className="wd-margin-left-10px" type="checkbox"/>
                                 <label class="wd-margin-left-10px">Media Recordings</label>
                             </div>
                             <div>
-                                <input type="checkbox"/>
+                                <input className="wd-margin-left-10px" type="checkbox"/>
                                 <label class="wd-margin-left-10px">Student Annotations</label>
                             </div>
                             <div>
-                                <input type="checkbox"/>
+                                <input className="wd-margin-left-10px" type="checkbox"/>
                                 <label class="wd-margin-left-10px">File Uploads</label>
                             </div>
                         </div>
@@ -121,15 +121,15 @@ function AssignmentEditor() {
                         <div class="wd-margin-left-10px row">
                             <div class="col d-flex">
                                 <div class="row">
-                                    <label class="wd-bold">Available From</label>
-                                    <input class="form-control" type="text" value="October 1, 2023"/>
+                                    <label class="wd-bold wd-margin-left-10px">Available From</label>
+                                    <input class="form-control wd-margin-left-20px width-100" type="text" value="October 1, 2023"/>
                                 </div>
 
                             </div>
                             <div class="col d-flex">
                                 <div class="row">
                                     <label class="" for="Until">Until</label>
-                                    <input class="form-control" type="text" value="October 2, 2023"/>
+                                    <input class="form-control wd-margin-left-20px width-100" type="text" value="October 2, 2023"/>
                                 </div>
                             </div>
                         </div><br/>
