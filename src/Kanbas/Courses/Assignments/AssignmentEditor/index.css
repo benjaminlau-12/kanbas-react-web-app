@@ -3,3 +3,26 @@
     color: #2d3b45;
     border-color: #c7cdd1;
 }
+
+.wd-space-evenly {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: -51px;
+}
+
+.wd-margin-top-50px {
+    margin-top: 50px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.wd-button-size {
+    width: 636px;
+}
+
+.wd-margin-left-10px {
+    margin-left: 10px;
+}
+
