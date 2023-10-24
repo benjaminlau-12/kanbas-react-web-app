@@ -1,0 +1,41 @@
+.textboxes-headings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-heading-spacing {
+    margin-left: 50px;
+}
+
+.url-heading-spacing {
+    margin-right:200px;
+    padding-left: 60px;
+}
+
+.wd-edit {
+    margin-top: 1px;
+    margin-left: 60px;
+}
+
+.wd-textbox-indent {
+    margin-left: 10px;
+}
+
+.wd-settings-link {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-bio-text-area {
+    text-align: left;
+}
+
+.wd-cancel-edit-button {
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.wd-button-container {
+    margin-left: 240px;
+}

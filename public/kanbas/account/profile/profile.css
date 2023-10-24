@@ -1,0 +1,126 @@
+.sidebar {
+    background-color: black;
+    width: 85px;
+    padding-top: 10px;
+    font-size: medium;
+    height: 120vh;
+}
+.menu-icon  {
+    color: red;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.account-icon  {
+    color: grey;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.wd-sidebar li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+}
+body  * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; 
+    align-items: flex-start;  */
+}
+
+.wd-navigation {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+.wd-sidebar {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wd-account-selected-bg {
+    background-color: white;
+}
+
+.wd-sidebar li a.wd-account-selected-text {
+    color: red;
+}
+
+.wd-navigation li a {
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.wd-navigation li a.wd-selected-navigation {
+    color: black;
+    border-left: 2px black solid;
+}
+
+.wd-profile-name {
+    color: black;
+    padding-left: 10px;
+}
+
+.wd-neu-logo {
+    width: 65px; 
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-menu {
+    color: red;
+    font-size: larger;
+}
+
+.wd-main-account-icon  {
+    color: grey;
+    padding-left: 5px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 90px;
+    margin-right: 20px;
+}
+
+.wd-account-navigation {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.wd-navigation li {
+    padding-bottom: 15px;
+}
+
+.wd-edit-button {
+    margin-left: 250px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.wd-main-content {
+    margin-left: 80px;
+}
+
+.wd-btn-custom-light-grey {
+    background-color: #f5f5f5;
+    color: #2d3b45;
+    border-color: #c7cdd1;
+}
+
+.wd-links {
+    color: red;
+    text-decoration: none;
+}
+
