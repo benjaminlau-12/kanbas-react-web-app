@@ -128,3 +128,15 @@ body * {
         position: absolute;
     }
 }
+
+.wd-margin-top-5px {
+    margin-top: 5px;
+}
+
+.wd-margin-top-20px {
+    margin-top: -20px;
+}
+
+.wd-margin-right-5px {
+    margin-right: 5px;
+}

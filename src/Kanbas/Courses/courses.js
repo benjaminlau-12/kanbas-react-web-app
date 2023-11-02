@@ -7,14 +7,14 @@ import MainContent from "./MainContent/main-content";
 import ButtonsAndStatus from "./ButtonsAndStatus/buttons-and-status";
 
 
-function Courses() {
+function Courses({courses}) {
     const { courseId } = useParams();
-    const course = db.courses.find((course) => course._id === courseId);
+    const course = courses.find((course) => course._id === courseId);
     const { pathname } = useLocation();
     return (
         <div>
             <div className="wd-course-navigation">
-                <ul className="wd-navigation">
+                <ul className="wd-navigation col">
                     <li class="">
                         <nav className="wd-nav">
                             <ol class="breadcrumb wd-no-wrap">
