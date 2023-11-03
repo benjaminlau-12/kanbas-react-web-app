@@ -60,22 +60,15 @@ body * {
     --aria-label: "breadcrumb";
 }
 
-.wd-third-col {
-    width: 700px;
-    margin-right: 30px;
-    margin-left:180px;
-    margin-top: -550px;
-}
-
-.wd-fourth-col {
-    margin-left: 900px;
-    margin-top: -400px;
-}
-
 .wd-no-wrap {
     white-space: nowrap;
     width: 700px;
 }
 
+.wd-c-container {
+    margin-left: 200px;
+    margin-top: -545px !important;
+    width: 1500px;
+}
 
 

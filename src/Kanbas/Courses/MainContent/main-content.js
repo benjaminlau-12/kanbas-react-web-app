@@ -8,7 +8,7 @@ import AssignmentEditor from "../Assignments/AssignmentEditor";
 
 function MainContent() {
     return (
-        <div className="wd-third-col">
+        <div className="wd-third-col col">
             <Routes>
                 <Route path="/" element={<Navigate to="Home" />} />
 

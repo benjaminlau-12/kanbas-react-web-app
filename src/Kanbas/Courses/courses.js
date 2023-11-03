@@ -11,6 +11,7 @@ function Courses({courses}) {
     const { courseId } = useParams();
     const course = courses.find((course) => course._id === courseId);
     const { pathname } = useLocation();
+    const size = pathname.split("/").length
     return (
         <div>
             <div className="wd-course-navigation">
@@ -24,7 +25,7 @@ function Courses({courses}) {
                                         {course.number + " " + course.section + " " + course.term}
                                     </a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">{pathname.substring(23)}</li>
+                                <li class="breadcrumb-item active" aria-current="page">{pathname.split("/")[size - 1]}</li>
                             </ol>
                         </nav>
 
@@ -33,8 +34,11 @@ function Courses({courses}) {
                     <CourseNavigation />
                 </ul>
             </div>
-            <MainContent/>
-            <ButtonsAndStatus/>
+            <div className="row wd-c-container">
+                <MainContent/>
+                <ButtonsAndStatus/>
+            </div>
+            
 
 
 
