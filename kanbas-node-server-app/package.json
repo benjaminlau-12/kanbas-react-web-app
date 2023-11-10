@@ -1,0 +1,14 @@
+{
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "description": "node.js HTTP Web server for the Kanbas Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Lau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
