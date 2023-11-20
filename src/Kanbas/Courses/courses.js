@@ -1,5 +1,7 @@
 import db from "../../Kanbas/Database";
-import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import CourseNavigation from "./CourseNavigation/course-nav";
 import { FaBars } from "react-icons/fa6";
 import "./courses.css"
@@ -7,9 +9,21 @@ import MainContent from "./MainContent/main-content";
 import ButtonsAndStatus from "./ButtonsAndStatus/buttons-and-status";
 
 
-function Courses({courses}) {
+function Courses() {
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const URL = "http://localhost:4000/api/courses";
+    const [course, setCourse] = useState({});
+    const findCourseById = async (courseId) => {
+        const response = await axios.get(
+            `${URL}/${courseId}`
+        );
+        setCourse(response.data);
+    };
+    useEffect(() => {
+        findCourseById(courseId);
+    }, [courseId]);
+
+
     const { pathname } = useLocation();
     const size = pathname.split("/").length
     return (
@@ -22,7 +36,7 @@ function Courses({courses}) {
                                 <li class="breadcrumb-item">
                                     <FaBars className="wd-bars" />
                                     <a class="wd-course-name" href="#">
-                                        {course.number + " " + course.section + " " + course.term}
+                                        {course.number + " " + "01" + " " + "FA23"}
                                     </a>
                                 </li>
                                 <li class="breadcrumb-item active" aria-current="page">{pathname.split("/")[size - 1]}</li>
@@ -35,10 +49,10 @@ function Courses({courses}) {
                 </ul>
             </div>
             <div className="row wd-c-container">
-                <MainContent/>
-                <ButtonsAndStatus/>
+                <MainContent />
+                <ButtonsAndStatus />
             </div>
-            
+
 
 
 

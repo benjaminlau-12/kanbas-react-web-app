@@ -36,7 +36,7 @@ function Dashboard(
       <div className="list-group">
         {courses.map((course, index) => (
           <div className="list-group-item">
-            <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className={`wd-course-name${index + 1}`}>
+            <Link key={course.number} to={`/Kanbas/Courses/${course.number}`} className={`wd-course-name${index + 1} wd-remove-text-decoration`}>
               {course.number} - {course.name}
             </Link>
 

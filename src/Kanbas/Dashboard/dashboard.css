@@ -100,6 +100,10 @@
     text-decoration: none;
 }
 
+.wd-remove-text-decoration {
+    text-decoration: none;
+}
+
 .wd-margin-left-5px {
     margin-left: 5px;
 }
