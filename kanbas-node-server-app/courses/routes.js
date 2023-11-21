@@ -2,7 +2,6 @@ import Database from "../Database/index.js";
 function CourseRoutes(app) {
     app.get("/api/courses/:id", (req, res) => {
         const { id } = req.params;
-        console.log(id);
         const course = Database.courses
             .find((c) => c.number === id);
         if (!course) {
