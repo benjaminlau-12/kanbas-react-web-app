@@ -1,8 +1,8 @@
 import axios from "axios";
 const COURSES_URL = "http://localhost:4000/api/courses";
-// const MODULES_URL = "https://kanbas-node-server-app-p5o7.onrender.com/api/modules";
+// const MODULES_URL = "https://kanbas-node-server-app-2-wnyv.onrender.com/api/modules";
 const API_BASE = process.env.REACT_APP_API_BASE;
-console.log(API_BASE);
+console.log("API_BASE is: " + API_BASE);
 const MODULES_URL = `${API_BASE}/modules`;
 
 
